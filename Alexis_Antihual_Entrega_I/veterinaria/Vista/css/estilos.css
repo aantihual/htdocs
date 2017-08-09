@@ -1,0 +1,57 @@
+/* 
+    Created on : 09-07-2017, 4:27:17
+    Author     : Fikzo
+*/
+
+.banner
+{
+    width: 750px;
+    height: 250px;
+    margin: auto;
+    background-size: 100% 100%;    
+    animation-name: banner;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes banner
+{
+    0%, 30%{
+        background-image: url(https://loscollaresdeleia.com/wp-content/uploads/2016/07/Perros.jpg);
+        opacity: 1;
+        src: url()
+    }
+    
+    31%,34%{
+        opacity: 0.1;
+    }
+    35%, 65%{
+        background-image: url(http://www.mascotafriends.com/wp-content/uploads/2014/04/francia-perros-animales-fea.jpg);
+        opacity: 1;
+    }
+    66%,69%{
+      opacity: 0.1;  
+    }
+    70%, 100%{
+        background-image: url(http://www.mascotafriends.com/wp-content/uploads/2014/04/raza-bulldog-featured1.jpg);
+        opacity: 1;
+    }
+}
+
+p#texto{
+    text-align:justify;
+    font-size: 16px;
+    font-family: Arial, Helvetica, Sans-serif;
+}
+
+p#titulo{
+    text-align: left;
+    font-weight: bold; 
+    font-size: 25px;
+    font-family: Arial, Helvetica, Sans-serif;
+    
+}
+
+
+
